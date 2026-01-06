@@ -43,6 +43,8 @@ def make_annotations(cls):
 
 # All classes to register.
 classes = (
+    import_urdf_operator.URDFJointItem,
+    import_urdf_operator.URDF_UL_JointList,
     import_urdf_operator.URDF_OT_FilebrowserImporter,
 )
 
